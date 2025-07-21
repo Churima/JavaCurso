@@ -1,11 +1,29 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.math.RoundingMode;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        System.out.println("Filme: Superman");
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+        int anoDeLancamento = 2025;
+        System.out.println("Ano de lançamento: " + anoDeLancamento );
+
+        boolean incluidoNoPlano = true;
+        if (incluidoNoPlano) {
+            System.out.println("Ta no plano!");
+        } else {
+            System.out.println("Não está no plano!");
         }
+
+        /*double notaDoFilme = 10;*/
+        double mediaFilme = (10 + 6.3 + 8.0) / 3;
+        System.out.println("Nota: " + mediaFilme);
+
+        String sinopse = "FILME DO SUPERMAN MUITO IRADO COM CACHORRO E TEM MUITA LUTA MUITO ABSOLUTE CINEMA SLK !!!!!";
+        System.out.println("Sinopse: " + sinopse);
+
+        int estrelas = (int) mediaFilme;
+        System.out.println(estrelas);
+
+
     }
 }
