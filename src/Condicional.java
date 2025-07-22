@@ -16,6 +16,8 @@ public class Condicional {
 
         if (anoDeLancamento == hoje.getYear()) {
             System.out.println("Lançamento!!!");
+        } else {
+            System.out.println("Filme que vale a pena assistir!");
         }
     }
 }
